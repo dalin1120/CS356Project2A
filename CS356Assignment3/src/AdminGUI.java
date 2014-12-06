@@ -285,19 +285,5 @@ public class AdminGUI implements ActionListener
    {
       return values;
    }
-   public ArrayList<OutgoingMessage> getMessageHistory()
-   {
-      return messageHistory;
-   }//
-   public static void main(String[] args)
-   {
-      SwingUtilities.invokeLater(new Runnable()
-      {
-         public void run()
-         {
-            AdminGUI.getInstance();
-         }
-      });
-   }
-   
+  
 }
