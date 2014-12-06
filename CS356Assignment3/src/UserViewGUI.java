@@ -33,11 +33,11 @@ public class UserViewGUI implements ActionListener
       newsList = new JList<OutgoingMessage>(person.getNews());
       jscrlpNews = new JScrollPane(newsList);
       
-      jbtnFollow.setActionCommand("One");
+      jbtnFollow.setActionCommand("One");                //Arbitrary actionCommand to differentiate
       jbtnMessage.setActionCommand("Two");
       jbtnFollow.addActionListener(this);
       jbtnMessage.addActionListener(this);
-      
+      //Placement of the buttons, textfields and scrollpane
       jbtnFollow.setHorizontalTextPosition(SwingConstants.LEADING);
       jbtnFollow.setVerticalTextPosition(SwingConstants.CENTER);
       jbtnMessage.setHorizontalTextPosition(SwingConstants.LEADING);
